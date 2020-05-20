@@ -1,0 +1,193 @@
+/opt/bitnami/mariadb/sbin/mysqld, Version: 10.4.12-MariaDB (Source distribution). started with:
+Tcp port: 3306  Unix socket: /opt/bitnami/mariadb/tmp/mysql.sock
+Time		    Id Command	Argument
+# Time: 200514 14:55:20
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 15842  Schema: logis_pclinea  QC_hit: No
+# Query_time: 7.149024  Lock_time: 0.000079  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+use logis_pclinea;
+SET timestamp=1589468120;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:05:49
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 17372  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.500989  Lock_time: 0.000109  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589468749;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:07:18
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 17724  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.978245  Lock_time: 0.000069  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589468838;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:07:34
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 17809  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.568693  Lock_time: 0.000075  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589468854;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:08:27
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 18264  Schema: logis_pclinea  QC_hit: No
+# Query_time: 7.282755  Lock_time: 0.000082  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589468907;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:09:07
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 18435  Schema: logis_pclinea  QC_hit: No
+# Query_time: 7.002169  Lock_time: 0.000076  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589468947;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:29:07
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 25147  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.310842  Lock_time: 0.000116  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589470147;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:34:21
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 27149  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.731569  Lock_time: 0.000088  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589470461;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 15:37:44
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 31574  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.348183  Lock_time: 0.000089  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589470664;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 16:00:06
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 35521  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.339254  Lock_time: 0.000083  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589472006;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 16:03:25
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 35998  Schema: logis_pclinea  QC_hit: No
+# Query_time: 9.271929  Lock_time: 0.000081  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589472205;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 16:03:28
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 36039  Schema: logis_pclinea  QC_hit: No
+# Query_time: 8.718639  Lock_time: 0.000097  Rows_sent: 1  Rows_examined: 5184
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589472208;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 16:51:59
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 42302  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.066850  Lock_time: 0.000079  Rows_sent: 1  Rows_examined: 5183
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589475119;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 17:21:55
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 45704  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.527725  Lock_time: 0.000077  Rows_sent: 1  Rows_examined: 5183
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589476915;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 17:58:53
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 47496  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.760952  Lock_time: 0.000072  Rows_sent: 1  Rows_examined: 5183
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589479133;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 18:06:20
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 48074  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.553069  Lock_time: 0.000087  Rows_sent: 1  Rows_examined: 5183
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589479580;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 18:10:13
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 48715  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.508261  Lock_time: 0.000086  Rows_sent: 1  Rows_examined: 5183
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589479813;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 18:44:32
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 50605  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.729742  Lock_time: 0.000073  Rows_sent: 1  Rows_examined: 5182
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589481872;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 19:04:51
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 52199  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.751094  Lock_time: 0.000094  Rows_sent: 1  Rows_examined: 5182
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589483091;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 19:44:52
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 56624  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.957128  Lock_time: 0.000083  Rows_sent: 1  Rows_examined: 5182
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589485492;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 19:59:42
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 57702  Schema: logis_pclinea  QC_hit: No
+# Query_time: 9.487896  Lock_time: 0.000085  Rows_sent: 1  Rows_examined: 5182
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589486382;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 19:59:44
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 57725  Schema: logis_pclinea  QC_hit: No
+# Query_time: 10.451158  Lock_time: 0.000109  Rows_sent: 1  Rows_examined: 5182
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589486384;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 20:28:36
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 60507  Schema: logis_pclinea  QC_hit: No
+# Query_time: 7.055538  Lock_time: 0.000082  Rows_sent: 1  Rows_examined: 5182
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589488116;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 20:36:13
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 61466  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.223771  Lock_time: 0.000073  Rows_sent: 1  Rows_examined: 5179
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589488573;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 20:54:21
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 62591  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.744788  Lock_time: 0.000125  Rows_sent: 1  Rows_examined: 5179
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589489661;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 21:38:22
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 68824  Schema: logis_pclinea  QC_hit: No
+# Query_time: 6.324890  Lock_time: 0.000103  Rows_sent: 1  Rows_examined: 5179
+# Rows_affected: 0  Bytes_sent: 2823
+SET timestamp=1589492302;
+SELECT A.* , B.imagen, C.valor, D.auto, E.actual FROM productos A  , imagenes B, relacion_precios C, familias D, inventarios E   WHERE A.id = B.id_registro AND B.id_seccion = 23 AND A.id = C.id_producto AND C.id_lista_precio = '3' AND D.id = A.id_familia AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR D.auto = '')  ORDER BY A.nombre ASC, A.id LIMIT 1;
+# Time: 200514 22:07:25
+# User@Host: root[root] @  [10.0.0.6]
+# Thread_id: 12673  Schema: logis_pclinea  QC_hit: No
+# Query_time: 28501.661343  Lock_time: 0.003954  Rows_sent: 0  Rows_examined: 34
+# Rows_affected: 0  Bytes_sent: 2568
+SET timestamp=1589494045;
+SELECT A.*, DATEDIFF(curdate(),A.creacion) as diff , B.nombre AS marca, C.nombre AS familia, D.valor, E.actual, F.imagen FROM productos A  , marcas B, familias C, relacion_precios D, inventarios E, imagenes F   WHERE A.id_familia=9 OR JSON_KEYS((SELECT CONVERT((SELECT CONCAT(0x7170767871,(SELECT (ELT(5577=5577,1))),0x71716a6a71)) USING utf8))) AND A.estado_web='1' AND A.id_estado='1' AND B.id = A.id_marca AND C.id = A.id_familia AND A.id = D.id_producto AND D.id_lista_precio='3' AND E.id_producto = A.id AND E.id_almacen='1' AND (E.actual>0 OR C.auto = '') AND A.id = F.id_registro AND F.id_seccion = 23 GROUP BY A.id ORDER BY A.nombre ASC, A.nombre;
